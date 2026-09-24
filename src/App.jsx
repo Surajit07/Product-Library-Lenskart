@@ -288,6 +288,10 @@ export default function App() {
                   <div style={{ fontSize: 9.5, color: '#94a3b8', textTransform: 'uppercase' }}>Inhouse Model</div>
                   <div style={{ fontSize: 12, fontWeight: 600, marginTop: 2 }}>{r['Inhouse model no.'] || '-'}</div>
                 </div>
+                <div style={{ background: '#182238', padding: 8, borderRadius: 6 }}>
+                  <div style={{ fontSize: 9.5, color: '#94a3b8', textTransform: 'uppercase' }}>Size</div>
+                  <div style={{ fontSize: 12, fontWeight: 600, marginTop: 2 }}>{r['Size'] || '-'}</div>
+                </div>
               </div>
             </div>
           ))}
